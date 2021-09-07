@@ -1,4 +1,3 @@
-// {/* <script src="https://kit.fontawesome.com/498bf66a0a.js" crossorigin="anonymous"></script> */}
 
 let screen = document.getElementById('screen');
 let buttons = document.querySelectorAll('button');

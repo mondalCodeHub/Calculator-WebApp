@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+* {
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    /* margin-top: 150px; */
+    margin-top: 130px;
+}
+
+table {
+    margin: auto;
+}
+
+input {
+    /* width: 500px; */
+    width: 334px;
+    height: 54px;
+    border: 3px solid rgba(0, 0, 0, 0.753);
+    font-size: 40px;
+    border-radius: 7px;
+    /* background-color: rgba(238, 174, 202, 0.603); */
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    /* box-shadow: inset 0 0 10px #000000a2; */
+}
+
+button {
+    width: 80px;
+    height: 55px;
+    background-color: rgba(44, 44, 44, 0.795);
+    color: white;
+    /* font-weight: bold; */
+    font-size: 35px;
+    /* border: 2px solid rgb(0, 0, 0); */
+    /* box-shadow: inset 0 0 10px #000000a2; */
+    border-radius: 10px;
+}
+
+.calculator {
+    display: inline-block;
+    border: 2px solid rgba(22, 21, 21, 0.205);
+    padding: 40px;
+    border-radius: 23px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.icon {
+    /* display: inline-block; */
+    /* font-size: 40px; */
+    /* width: 100px; */
+    /* border: 1px solid white; */
+    /* border-radius: 50%; */
+}
+
+.fas {
+    border: 2px solid rgb(46, 42, 42);
+    border-radius: 50%;
+    margin: 4px;
+    padding: 6px;
+}
+
+.text {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/* specail design */
+
+.mul {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+.clear {
+    background-color: skyblue;
+    color: black;
+    /* border-radius: 10px; */
+}
+
+.subx {
+    background-color: sandybrown;
+}
+
+.add {
+    background-color: rgba(172, 255, 47, 0.747);
+}
+
+.equals {
+    background-color: violet;
+    color: black;
+}
+
+.divx {
+    background-color: teal;
+}
+.ctx{
+    /* display: inline-block; */
+    display: flex;
+    font-family: 'Fjalla One', sans-serif;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    font-size: 20px;
+
+}
+.ctx h5{
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+    /* color: white; */
+    color: #002D62;
+    margin-left: 4px;
+}
+footer{
+    text-align: center;
+    justify-content: center;
+}
+.developer{
+    /* display: flex; */
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 60px;
+    /* text-align: center; */
+
+}
+.developer code{
+    /* text-align: center; */
+    color: red;
+}
+code{
+    /* color: rgb(75, 15, 15); */
+    font-weight: bold;
+    border: 1px solid red;
+    padding: 2px;
+    cursor: pointer;
+}
+code a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(75, 15, 15);
+    transition: 0.4s all;
+
+}
+code:hover{
+    color: red;
+    border: 1px solid rgb(75, 15, 15);
+}
+code a:hover{
+    color: red;
+}
